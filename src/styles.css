@@ -1,0 +1,92 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 90%;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+  margin: 0;
+  font-size: 72px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.aboutPage {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.contact {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px 15px;
+  border-radius: 5px;
+}
+
+.about {
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 20px 15px;
+  box-shadow: var(--box-shadow);
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.home-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+  text-decoration: underline;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+}
+
+.app-list {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#contact {
+  text-align: center;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
