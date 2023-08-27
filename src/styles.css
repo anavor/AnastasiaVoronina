@@ -36,6 +36,7 @@ h3 {
   justify-content: center;
 }
 .contact {
+  text-align: center;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
